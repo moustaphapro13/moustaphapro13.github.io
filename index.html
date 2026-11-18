@@ -3,14 +3,64 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Kwiz</title>
+<title>Kwiz — le quiz de culture générale en ligne, seul ou entre amis</title>
+<meta name="description" content="Kwiz est un jeu de quiz gratuit en français : plus de 3 000 questions dans des dizaines de thèmes, duels en direct, parties jusqu'à 10 joueurs, défi du jour et classements.">
 <meta name="google-adsense-account" content="ca-pub-7980167263089871">
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7980167263089871" crossorigin="anonymous"></script>
-<link rel="canonical" href="https://moustaphapro13.github.io/defiquiz/">
-<style>body{font-family:system-ui,sans-serif;background:#111;color:#eee;display:grid;place-items:center;min-height:100vh;margin:0}a{color:#ffc93c}</style>
+<link rel="icon" href="/defiquiz/icon-192.png">
+<style>
+:root{--bg:#f3f2fb;--card:#fff;--ink:#1b1830;--mute:#6b6880;--acc:#3d2bd9;--y:#ffc93c}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;background:var(--bg);color:var(--ink);line-height:1.6}
+header{background:var(--acc);color:#fff;padding:56px 20px 64px;text-align:center}
+header img{width:84px;height:84px;border-radius:22px}
+h1{font-size:44px;margin:12px 0 4px;letter-spacing:-1px}h1 span{color:var(--y)}
+header p{font-size:19px;max-width:620px;margin:8px auto 26px;opacity:.95}
+.btn{display:inline-block;background:var(--y);color:#1b1830;font-weight:800;padding:15px 34px;border-radius:16px;text-decoration:none;font-size:18px}
+main{max-width:920px;margin:-30px auto 0;padding:0 18px 40px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+.card{background:var(--card);border-radius:20px;padding:22px;box-shadow:0 4px 18px rgba(30,20,90,.07)}
+.card h3{margin:0 0 6px}.card p{margin:0;color:var(--mute)}
+h2{margin:38px 0 12px}
+ol li{margin:6px 0}
+.tags{display:flex;flex-wrap:wrap;gap:8px}.tags span{background:#fff;border-radius:999px;padding:6px 14px;font-weight:600;font-size:14px}
+footer{text-align:center;color:var(--mute);font-size:14px;padding:30px 20px}footer a{color:var(--acc)}
+</style>
 </head>
 <body>
-<p><b>Kwiz</b> — le quiz en ligne. <a href="/defiquiz/">Ouvrir Kwiz</a></p>
-<script>setTimeout(function(){location.replace("/defiquiz/")},1500)</script>
+<header>
+  <img src="/defiquiz/icon-192.png" alt="Logo Kwiz">
+  <h1>K<span>wiz</span></h1>
+  <p>Le quiz de culture générale en français. Joue seul, défie tes amis en duel ou affronte jusqu'à 10 joueurs en même temps.</p>
+  <a class="btn" href="/defiquiz/">Jouer gratuitement</a>
+</header>
+<main>
+  <div class="grid">
+    <div class="card"><h3>Plus de 3 000 questions</h3><p>Des questions rédigées et vérifiées, sans doublons, classées par thème et par difficulté. De nouvelles questions arrivent régulièrement.</p></div>
+    <div class="card"><h3>Duels en direct</h3><p>Affronte un joueur en temps réel sur le même thème : le plus rapide et le plus juste l'emporte.</p></div>
+    <div class="card"><h3>Parties à plusieurs</h3><p>Crée un salon privé avec un code ou rejoins une partie publique, de 2 à 10 joueurs, tous sur la même question, avec le classement en direct.</p></div>
+    <div class="card"><h3>Défi du jour</h3><p>Chaque jour, les mêmes questions pour tout le monde. Compare ton score au classement du jour.</p></div>
+  </div>
+
+  <h2>Les thèmes</h2>
+  <div class="tags">
+    <span>Culture G</span><span>Géographie</span><span>Histoire</span><span>Sciences</span><span>Sport</span><span>Football</span><span>Cinéma</span><span>Séries</span><span>Musique</span><span>Mythologie</span><span>Cuisine</span><span>Espace</span><span>Animaux</span><span>Littérature</span><span>Art</span><span>Jeux vidéo</span><span>Mangas</span><span>Pokémon</span><span>Langue française</span><span>Tech</span><span>et des dizaines de sous-thèmes</span>
+  </div>
+
+  <h2>Comment jouer</h2>
+  <ol>
+    <li>Ouvre Kwiz depuis ton navigateur, sur téléphone ou sur ordinateur. Rien à télécharger : tu peux aussi l'ajouter à ton écran d'accueil.</li>
+    <li>Choisis un thème, puis un mode : solo, duel, partie à plusieurs ou défi du jour.</li>
+    <li>Réponds le plus vite possible : plus tu es rapide, plus tu gagnes de points. La dernière question compte double.</li>
+    <li>Gagne de l'expérience, monte de niveau dans chaque thème et débloque des cosmétiques pour ton profil : cadres, bannières et bulles de discussion.</li>
+  </ol>
+
+  <h2>Une communauté</h2>
+  <p>Ajoute des amis, discute avec eux, partage des stories, rejoins des salons par thème et crée tes propres quiz pour les faire jouer aux autres. Kwiz est disponible en français, anglais, espagnol, italien, allemand, portugais, turc et arabe.</p>
+
+  <p style="text-align:center;margin-top:34px"><a class="btn" href="/defiquiz/">Lancer une partie</a></p>
+</main>
+<footer>
+  Kwiz · jeu de quiz gratuit · <a href="/defiquiz/legal.html">Mentions légales et confidentialité</a> · <a href="mailto:moustapha.guenaoui@gmail.com">Contact</a>
+</footer>
 </body>
 </html>
